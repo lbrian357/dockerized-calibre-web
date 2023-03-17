@@ -1,0 +1,51 @@
+[2023-03-17 18:08:27,485]  WARN {cps.config_sql:327} Log path None not valid, falling back to default
+[2023-03-17 18:08:27,510]  WARN {cps.config_sql:358} invalidating configuration
+[2023-03-17 18:08:27,561]  INFO {cps:143} *** "APScheduler" version does not fit the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-03-17 18:08:27,564]  INFO {cps:143} *** "greenlet" version does not fit the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-03-17 18:08:27,565]  INFO {cps:152} Starting Calibre Web...
+[2023-03-17 18:08:28,389]  INFO {apscheduler.scheduler:171} Scheduler started
+[2023-03-17 18:08:28,416]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/apscheduler/util.py:436: PytzUsageWarning: The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+  return tzinfo.localize(dt)
+
+[2023-03-17 18:08:28,417]  INFO {apscheduler.scheduler:885} Added job "end scheduled task" to job store "default"
+[2023-03-17 18:08:28,555]  INFO {cps.ub:890} github Blueprint Created
+[2023-03-17 18:08:28,576]  INFO {cps.ub:890} google Blueprint Created
+[2023-03-17 18:08:29,512]  INFO {cps.server:205} Starting Gevent server on [::]:8083
+[2023-03-17 18:26:08,954]  INFO {cps.web:1159} Serving book: Discworld 01_ The Colour Of Magic - Terry Pratchett
+[2023-03-17 20:08:48,427]  INFO {cps.server:275} webserver stop (restart=False)
+[2023-03-17 20:08:48,429]  INFO {cps.server:260} Performing shutdown of Calibre-Web
+[2023-03-17 20:08:48,431]  INFO {apscheduler.scheduler:202} Scheduler has been shut down
+[2023-03-17 20:10:05,191]  INFO {cps:143} *** "APScheduler" version does not fit the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-03-17 20:10:05,192]  INFO {cps:143} *** "greenlet" version does not fit the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-03-17 20:10:05,193]  INFO {cps:152} Starting Calibre Web...
+[2023-03-17 20:10:05,711]  INFO {apscheduler.scheduler:171} Scheduler started
+[2023-03-17 20:10:05,735]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/apscheduler/util.py:436: PytzUsageWarning: The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+  return tzinfo.localize(dt)
+
+[2023-03-17 20:10:05,737]  INFO {apscheduler.scheduler:885} Added job "end scheduled task" to job store "default"
+[2023-03-17 20:10:06,622]  INFO {cps.server:205} Starting Gevent server on [::]:8083
+[2023-03-17 20:10:31,038]  WARN {cps.web:1331} Login failed for user "admin" IP-address: ::ffff:172.19.0.1
+[2023-03-17 20:13:10,173]  WARN {cps.web:1331} Login failed for user "" IP-address: ::ffff:172.19.0.1
+[2023-03-17 20:15:01,271]  INFO {cps.web:1159} Serving book: Discworld 01_ The Colour Of Magic - Terry Pratchett
+[2023-03-17 20:20:54,108]  INFO {cps.ub:890} Bookmark for user 1 in book 285 created
+[2023-03-17 20:21:09,002]  INFO {cps.web:1159} Serving book: Discworld 01_ The Colour Of Magic - Terry Pratchett
+[2023-03-17 20:25:16,259]  INFO {cps.ub:890} Bookmark for user 1 in book 285 created
+[2023-03-17 20:25:31,388]  INFO {cps.web:1159} Serving book: Discworld 01_ The Colour Of Magic - Terry Pratchett
+[2023-03-17 20:30:06,428]  INFO {cps.server:275} webserver stop (restart=False)
+[2023-03-17 20:30:07,437]  INFO {cps.server:260} Performing shutdown of Calibre-Web
+[2023-03-17 20:30:07,441]  INFO {apscheduler.scheduler:202} Scheduler has been shut down
+[2023-03-17 20:31:23,444]  INFO {cps:143} *** "APScheduler" version does not fit the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-03-17 20:31:23,445]  INFO {cps:143} *** "greenlet" version does not fit the requirements. Should: available, Found: Not available, please consider installing required version ***
+[2023-03-17 20:31:23,448]  INFO {cps:152} Starting Calibre Web...
+[2023-03-17 20:31:23,958]  INFO {apscheduler.scheduler:171} Scheduler started
+[2023-03-17 20:31:23,984]  WARN {py.warnings:109} /usr/local/lib/python3.10/dist-packages/apscheduler/util.py:436: PytzUsageWarning: The localize method is no longer necessary, as this time zone supports the fold attribute (PEP 495). For more details on migrating to a PEP 495-compliant implementation, see https://pytz-deprecation-shim.readthedocs.io/en/latest/migration.html
+  return tzinfo.localize(dt)
+
+[2023-03-17 20:31:23,986]  INFO {apscheduler.scheduler:885} Added job "end scheduled task" to job store "default"
+[2023-03-17 20:31:24,919]  INFO {cps.server:205} Starting Gevent server on [::]:8083
+[2023-03-17 20:34:14,507]  INFO {cps.web:1159} Serving book: Discworld 01_ The Colour Of Magic - Terry Pratchett
+[2023-03-17 20:47:04,603]  INFO {cps.web:1159} Serving book: Discworld 01_ The Colour Of Magic - Terry Pratchett
+[2023-03-17 20:48:50,307] ERROR {cps.db:796} Author George, Orwell, not found to display name in right order
+[2023-03-17 20:48:50,315] ERROR {cps.db:796} Author C., Clarke| Arthur not found to display name in right order
+[2023-03-17 20:48:50,323] ERROR {cps.db:796} Author Nuttz, Busta not found to display name in right order
+[2023-03-17 20:48:50,344] ERROR {cps.db:796} Author Leo, Tolstoy, not found to display name in right order
