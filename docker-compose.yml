@@ -3,6 +3,7 @@ services:
   calibre-web:
     image: lscr.io/linuxserver/calibre-web:latest
     container_name: calibre-web
+    command: bash -c "chmod -R 777 ~/Dropbox/Calibre"
     environment:
       - PUID=1000
       - PGID=1000
@@ -10,7 +11,7 @@ services:
       - DOCKER_MODS=linuxserver/mods:universal-calibre #optional
       - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
-      - ./config:/config
+      - ~/calibre-web-config:/config
       - ~/Dropbox/Calibre:/books
     ports:
       - 8083:8083
