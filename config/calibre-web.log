@@ -49,3 +49,33 @@
 [2023-03-17 20:48:50,315] ERROR {cps.db:796} Author C., Clarke| Arthur not found to display name in right order
 [2023-03-17 20:48:50,323] ERROR {cps.db:796} Author Nuttz, Busta not found to display name in right order
 [2023-03-17 20:48:50,344] ERROR {cps.db:796} Author Leo, Tolstoy, not found to display name in right order
+[2023-03-17 21:40:36,876] ERROR {cps.db:796} Author George, Orwell, not found to display name in right order
+[2023-03-17 21:40:36,883] ERROR {cps.db:796} Author C., Clarke| Arthur not found to display name in right order
+[2023-03-17 21:40:36,892] ERROR {cps.db:796} Author Nuttz, Busta not found to display name in right order
+[2023-03-17 21:40:36,918] ERROR {cps.db:796} Author Leo, Tolstoy, not found to display name in right order
+[2023-03-17 21:40:40,444] ERROR {cps.db:796} Author Stephen, Hawking, not found to display name in right order
+[2023-03-17 21:40:40,466] ERROR {cps.db:796} Author Stephen, Hawking, not found to display name in right order
+[2023-03-17 21:40:40,508] ERROR {cps.db:796} Author J.D., Salinger, not found to display name in right order
+[2023-03-17 21:40:40,543] ERROR {cps.db:796} Author Dan, Brown, not found to display name in right order
+[2023-03-17 21:40:40,570] ERROR {cps.db:796} Author Scott, Bakker, R. not found to display name in right order
+[2023-03-17 21:40:40,578] ERROR {cps.db:796} Author Stephen, King, not found to display name in right order
+[2023-03-17 21:40:40,599] ERROR {cps.db:796} Author Scott, Card, Orson not found to display name in right order
+[2023-03-17 21:40:40,627] ERROR {cps.db:796} Author Thomas, Harris, not found to display name in right order
+[2023-03-17 21:40:40,647] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:40,655] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:40,662] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:40,668] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:40,675] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:40,687] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:40,694] ERROR {cps.db:796} Author J.K., Rowling, not found to display name in right order
+[2023-03-17 21:40:47,330] ERROR {cps.db:796} Author Okina Baba and Tsukasa Kiryu not found to display name in right order
+[2023-03-17 21:40:47,340] ERROR {cps.db:796} Author Baba, Okina and Kiryu, Tsukasa not found to display name in right order
+[2023-03-17 21:40:47,350] ERROR {cps.db:796} Author Baba, Okina and Kiryu, Tsukasa not found to display name in right order
+[2023-03-17 21:40:47,359] ERROR {cps.db:796} Author Okina Baba and Tsukasa Kiryu not found to display name in right order
+[2023-03-17 21:40:47,375] ERROR {cps.db:796} Author Okina Baba and Tsukasa Kiryu not found to display name in right order
+[2023-03-17 21:40:47,389] ERROR {cps.db:796} Author BABA, OKINA / KIRYU, TSUKASA not found to display name in right order
+[2023-03-17 21:40:47,410] ERROR {cps.db:796} Author Okina Baba not found to display name in right order
+[2023-03-17 21:40:47,431] ERROR {cps.db:796} Author Baba, Okina and Kiryu, Tsukasa not found to display name in right order
+[2023-03-17 21:40:47,446] ERROR {cps.db:796} Author Baba, Okina and Kiryu, Tsukasa not found to display name in right order
+[2023-03-18 04:10:00,006]  INFO {apscheduler.executors.default:123} Running job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-03-19 04:10:00 UTC)" (scheduled at 2023-03-18 04:10:00+00:00)
+[2023-03-18 04:10:00,014]  INFO {apscheduler.executors.default:144} Job "end scheduled task (trigger: cron[hour='4', minute='10'], next run at: 2023-03-19 04:10:00 UTC)" executed successfully

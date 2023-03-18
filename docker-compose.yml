@@ -11,7 +11,17 @@ services:
       - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes:
       - ./config:/config
-      - ~/Dropbox/Calibre:/books # need to change for prod
+      - ~/Dropbox/Calibre:/books
     ports:
       - 8083:8083
+    expose:
+      - "8083"
     restart: unless-stopped
+  nginx:
+    restart: unless-stopped
+    build: ./nginx
+    ports:
+      - 80:80
+      - 443:443
+    depends_on:
+      - calibre-web
