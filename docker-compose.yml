@@ -1,4 +1,4 @@
-version: "2.1"
+version: "3.9"
 services:
   calibre-web:
     image: lscr.io/linuxserver/calibre-web:latest
@@ -10,12 +10,25 @@ services:
       - DOCKER_MODS=linuxserver/mods:universal-calibre #optional
       - OAUTHLIB_RELAX_TOKEN_SCOPE=1 #optional
     volumes: # make sure give permission (chmod -R 777) to these folders
-      - ~/calibre-web-config:/config
+      - ~/Dropbox/calibre-web-config:/config
       - ~/Dropbox/Calibre:/books
     ports:
       - 8083:8083
     expose:
       - "8083"
+    restart: unless-stopped
+  kavita:
+    image: kizaing/kavita:latest
+    container_name: kavita
+    volumes:
+      - ~/Dropbox/Calibre:/books
+      - ~/Dropbox/kavita-server-config:/kavita/config
+    environment:
+      - TZ=America/New_York
+    ports:
+      - 5050:5000
+    expose:
+      - "5050"
     restart: unless-stopped
   nginx:
     restart: unless-stopped
@@ -25,3 +38,4 @@ services:
       - 443:443
     depends_on:
       - calibre-web
+      - kavita
